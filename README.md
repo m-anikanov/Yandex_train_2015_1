@@ -42,3 +42,7 @@
 Вернет массив ошибок, если таковые были.
 
 	var errors = sorter.getErrors();             
+
+
+##Демо
+http://mvanikanov.ru/ya_train/1/
