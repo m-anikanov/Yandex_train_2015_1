@@ -8,22 +8,22 @@
 	
 ##Входные данные:
 
-var sorter = new Sorter(array);
-
-array - массив объектов, где каждый объект описывает одну карточку.
-
-[
-	{
-		from:    string, //обязательный! Название пункта отправления
-		to:      string, //обязательный! Название пункта прибытия
-		vehicle: string, //тип транспортного средства. [plane||train||airport bus]
-		number:  string, //номер рейса
-		seat:    string, //место
-		gate:    string, //выход
-		baggage: string  //информация о багаже
-	},
-	...
-]
+	var sorter = new Sorter(array);
+	
+	array - массив объектов, где каждый объект описывает одну карточку.
+	
+	[
+		{
+			from:    string, //обязательный! Название пункта отправления
+			to:      string, //обязательный! Название пункта прибытия
+			vehicle: string, //тип транспортного средства. [plane||train||airport bus]
+			number:  string, //номер рейса
+			seat:    string, //место
+			gate:    string, //выход
+			baggage: string  //информация о багаже
+		},
+		...
+	]
 
 ##Выходные данные:
 
