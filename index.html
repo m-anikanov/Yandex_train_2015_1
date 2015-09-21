@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<script src="sorter.js"></script>
+	<title>Document</title>
+</head>
+<body id="body">
+	
+</body>
+<script>
+
+var sorter = new Sorter([
+	{
+		from:    "Madrid",
+		to:      "Barcelona",
+		vehicle: "train",
+		number:  "78A",
+		seat:    "45B",
+
+	},
+	{
+		from:    "Barcelona",
+		to:      "Gerona Airport",
+		vehicle: "airport bus",
+		seat:    false
+	},
+	{
+		from:    "Gerona Airport",
+		to:      "Stockholm",
+		vehicle: "plane",
+		number:  "SK455",
+		seat:    "3A",
+		gate:    "45B",
+		baggage: "Baggage drop at ticket counter 344" 
+	},
+	{
+		from:    "Stockholm",
+		to:      "New York JFK",
+		vehicle: "plane",
+		number:  "SK22",
+		seat:    "7B",
+		gate:    "22",
+		baggage: "Baggage will be automatically transferred from your last leg"
+	},
+	{
+		from:    "sdf",
+		to:      "asd",
+		vehicle: "airport bus",
+		seat:    false
+	}
+]);
+
+
+
+document.getElementById('body').innerHTML = sorter.getTripDiscritionHTML();
+console.log(sorter.getOrderedCardsArr());
+
+
+</script>
+</html>
