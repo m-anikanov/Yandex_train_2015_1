@@ -1,4 +1,4 @@
-# Yandex_train_2015_2
+# Yandex_train_2015_1
 
 Алгоритм сортировки карточек путешественника, каждая из которых описывает, как попасть из точки А в точку Б.
 
@@ -29,15 +29,15 @@
 
 Такой же массив карточек, но в порядке следования по маршруту
 
-	var arr    = sorter.getOrderedCardsArr();
+	var arr = sorter.getOrderedCardsArr();
 
 Описание маршрута в виде html списка
 
-	var html   = sorter.getTripDiscritionHTML(); 
+	var html = sorter.getTripDiscritionHTML(); 
 
 Массив, каждый элемент которого - текстовое описание одной карточки
 
-	var arr    = sorter.getTripDiscritionArr();	
+	var arr = sorter.getTripDiscritionArr();	
 
 Вернет массив ошибок, если таковые были.
 
