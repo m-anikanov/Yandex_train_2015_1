@@ -28,13 +28,17 @@
 ##Выходные данные:
 
 Такой же массив карточек, но в порядке следования по маршруту
-var arr    = sorter.getOrderedCardsArr();
+
+	var arr    = sorter.getOrderedCardsArr();
 
 Описание маршрута в виде html списка
-var html   = sorter.getTripDiscritionHTML(); 
+
+	var html   = sorter.getTripDiscritionHTML(); 
 
 Массив, каждый элемент которого - текстовое описание одной карточки
-var arr    = sorter.getTripDiscritionArr();	
+
+	var arr    = sorter.getTripDiscritionArr();	
 
 Вернет массив ошибок, если таковые были.
-var errors = sorter.getErrors();             
+
+	var errors = sorter.getErrors();             
